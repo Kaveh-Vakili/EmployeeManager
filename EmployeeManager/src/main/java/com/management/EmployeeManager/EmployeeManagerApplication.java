@@ -19,7 +19,7 @@ public class EmployeeManagerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeManagerApplication.class, args);
 
-			@Bean
+	@Bean
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
